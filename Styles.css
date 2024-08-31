@@ -1,0 +1,6 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; } header { background-image: url('Arina.jpg'); background-size: cover; color: black; padding: 20px; text-align: center; background-repeat: 0;} header img { width: 200px; height: 200px; border-radius: 50%; object-fit: cover; } section { padding: 20px; } #projects a { color: black; text-decoration: none; } footer { background-color: #f1f1f1; padding: 20px; text-align: center; } 
+#text{
+   font-family: Candara;
+   font-style: bold;
+    color: white;}
+@keyframes blink { 0% {opacity: 1;} 50% {opacity: 0;} 100% {opacity: 1;} } #text { animation: blink 1s infinite; }
